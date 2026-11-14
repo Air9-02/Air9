@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>个人业务信息平台</title>
+  <meta
+    name="description"
+    content="个人业务介绍、服务说明、最新公告和联系方式。"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container" aria-label="主导航">
+      <a class="logo" href="#home">我的业务平台</a>
+
+      <ul class="nav-links">
+        <li><a href="#home">首页</a></li>
+        <li><a href="#services">业务介绍</a></li>
+        <li><a href="#process">办理流程</a></li>
+        <li><a href="#news">公告信息</a></li>
+        <li><a href="#contact">联系我</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content container">
+        <div class="hero-text">
+          <p class="tag">个人业务信息发布</p>
+          <h1>欢迎来到我的业务平台</h1>
+          <p>
+            这里介绍我提供的服务、办理方式和最新公告。
+            如需了解详情，请先阅读业务说明，再通过联系方式咨询。
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn primary" href="#services">查看业务</a>
+            <a class="btn secondary" href="#contact">联系咨询</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="平台说明">
+          <h3>平台说明</h3>
+          <ul>
+            <li>查看服务内容与办理条件</li>
+            <li>了解办理流程和注意事项</li>
+            <li>通过公开联系方式进行咨询</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2 class="section-title">业务介绍</h2>
+
+        <div class="card-grid">
+          <article class="service-card">
+            <h3>服务项目一</h3>
+            <p>在这里介绍服务内容、适用对象、办理条件和预计所需时间。</p>
+            <span>具体要求请先咨询</span>
+          </article>
+
+          <article class="service-card">
+            <h3>服务项目二</h3>
+            <p>在这里补充服务范围、办理方式，以及客户需要提前准备的事项。</p>
+            <span>请以沟通确认内容为准</span>
+          </article>
+
+          <article class="service-card">
+            <h3>服务项目三</h3>
+            <p>如有其他服务，可以在这里说明；暂时没有的项目可以删除此卡片。</p>
+            <span>详情请联系咨询</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section alt-bg">
+      <div class="container">
+        <h2 class="section-title">办理流程</h2>
+
+        <div class="steps">
+          <article class="step">
+            <div class="step-number">1</div>
+            <h3>了解需求</h3>
+            <p>先阅读业务说明，并通过联系方式咨询相关问题。</p>
+          </article>
+
+          <article class="step">
+            <div class="step-number">2</div>
+            <h3>确认事项</h3>
+            <p>确认服务范围、办理条件、费用和所需时间。</p>
+          </article>
+
+          <article class="step">
+            <div class="step-number">3</div>
+            <h3>按要求办理</h3>
+            <p>根据确认后的流程办理。请勿通过网站发送密码等敏感信息。</p>
+          </article>
+
+          <article class="step">
+            <div class="step-number">4</div>
+            <h3>沟通反馈</h3>
+            <p>如需了解进度或后续事项，请使用双方确认的联系方式沟通。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="news" class="section">
+      <div class="container">
+        <h2 class="section-title">公告信息</h2>
+
+        <div class="news-list">
+          <article class="news-item">
+            <span>公告</span>
+            <h3>业务信息以页面最新说明为准</h3>
+            <p>如果服务内容或办理方式有变化，请在这里更新公告。</p>
+          </article>
+
+          <article class="news-item">
+            <span>提醒</span>
+            <h3>注意保护个人信息</h3>
+            <p>不要在公开网页或非必要的聊天中发送密码、验证码和证件信息。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">联系我</h2>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <h3>联系方式</h3>
+            <p>电话：请填写你的公开联系电话</p>
+            <p>邮箱：请填写你的联系邮箱</p>
+            <p>其他方式：请填写你愿意公开的联系方式</p>
+          </div>
+
+          <div class="contact-card">
+            <h3>咨询时间</h3>
+            <p>工作日：请填写可联系时间</p>
+            <p>回复时间：请填写预计回复时间</p>
+            <p>请勿通过公开页面提交敏感个人资料。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> 我的业务平台</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+            </html>
